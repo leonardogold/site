@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Personal Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Personal Assistant</h1>
+        </header>
+        <main>
+            <section class="tasks">
+                <h2>Manage Tasks</h2>
+                <input type="text" id="taskInput" placeholder="Add a new task">
+                <button id="addTaskBtn">Add Task</button>
+                <ul id="taskList"></ul>
+            </section>
+            <section class="appointments">
+                <h2>Schedule Appointments</h2>
+                <input type="text" id="appointmentInput" placeholder="Add a new appointment">
+                <button id="addAppointmentBtn">Add Appointment</button>
+                <ul id="appointmentList"></ul>
+            </section>
+            <section class="personalized-info">
+                <h2>Personalized Information</h2>
+                <div id="personalizedContent">
+                    <!-- Dynamic content will be loaded here -->
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
